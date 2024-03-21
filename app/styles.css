@@ -1,72 +1,36 @@
-/* Reset default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* styles.css */
 
-/* Set a background color */
-body {
-    background-color: #f2f2f2;
-}
-
-/* Set font styles */
+/* General styles */
 body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
     color: #333;
 }
 
-/* Set a container for the content */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Set a header style */
+/* Header styles */
 header {
-    text-align: center;
-    padding: 20px 0;
-}
-
-h1 {
-    font-size: 36px;
-    color: #ff6600;
-    margin-bottom: 10px;
-}
-
-/* Set a navigation menu */
-nav {
     background-color: #333;
-    padding: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav ul li {
-    margin: 0 10px;
-}
-
-nav ul li a {
     color: #fff;
-    text-decoration: none;
-    padding: 5px;
+    padding: 10px 0;
+    text-align: center;
 }
 
-/* Set a main content area */
+/* Main content styles */
 main {
+    margin: 20px;
     padding: 20px;
+    background-color: #fff;
 }
 
-/* Set a footer style */
+/* Footer styles */
 footer {
-    text-align: center;
-    padding: 20px 0;
     background-color: #333;
     color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
